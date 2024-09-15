@@ -72,7 +72,7 @@ export default function Home() {
                         
                         <ul>
                             <li>
-                                <Button href="/donate" className="inline-block mb-4 px-2 py-1 text-dark-green font-proxima font-bold text-base uppercase rounded-lg border border-dark-green">
+                                <Button href="/donate" className="inline-block mb-4 px-2 py-1 text-dark-green font-proxima font-bold text-base uppercase rounded-lg border border-dark-green hover:bg-dark-creme">
                                     Donate Now
                                 </Button>
                             </li>
