@@ -1,4 +1,3 @@
-"use client";
 import { Button } from '@radix-ui/themes';
 import './output.css';
 
@@ -9,7 +8,7 @@ export default function HomePage() {
     
     <div>
 
-      <div className="relative h-[500px] bg-[url('/img/hero.jpg')] bg-cover bg-center">
+      <div className="relative h-screen bg-[url('/img/hero.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="flex flex-col items-start justify-center h-full pl-10">
           <div className="text-white font-extrabold text-6xl">
