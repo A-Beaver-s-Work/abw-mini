@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   mode : 'jit',
   content: [
@@ -12,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'proxima': ['Proxima Nova', 'sans-serif'],
+        'proxima-h': ['Proxima Nova', 'Helvetica', 'sans-serif'],
       },
 
       fontSize: {
@@ -26,6 +26,10 @@ module.exports = {
         'creme': "#f2ecdb",
         'dark-green': '#036a36',
         'dark-creme': '#ece4cc',
+        'light-gray': '#f5f4f3',
+        'custom-black': '#231F20',
+        'custom-yellow': '#f3c851',
+        'border-yellow': '#e3ab10',
       },
     },
   },
