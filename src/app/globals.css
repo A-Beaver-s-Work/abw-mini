@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/Proxima Nova Bold.otf') format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
